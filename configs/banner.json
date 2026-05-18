@@ -1,0 +1,7 @@
+{
+  "Cisco-IOS-XE-native:banner": {
+    "motd": {
+      "banner": "Network-as-Code demo - Thibo"
+    }
+  }
+}
