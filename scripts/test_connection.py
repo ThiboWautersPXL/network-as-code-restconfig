@@ -11,7 +11,7 @@ router_ip = os.getenv("DEVICE_HOST")
 username = os.getenv("DEVICE_USER")
 password = os.getenv("DEVICE_PASS")
 
-url = f"https://{router_ip}/restconf/data/"
+url = f"https://{router_ip}/restconf/data/Cisco-IOS-XE-native:native/hostname"
 
 headers = {
     "Accept": "application/yang-data+json"
@@ -23,7 +23,7 @@ try:
         headers=headers,
         auth=HTTPBasicAuth(username, password),
         verify=False,
-        timeout=10
+        timeout=30
     )
 
     print(f"HTTP Status Code: {response.status_code}")

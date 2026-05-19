@@ -27,8 +27,8 @@ TASKS = [
     {
         "name": "Hostname configureren",
         "github_file": "hostname.json",
-        "method": "PATCH",
-        "url": f"{BASE_URL}/Cisco-IOS-XE-native:native"
+        "method": "PUT",
+        "url": f"{BASE_URL}/Cisco-IOS-XE-native:native/hostname"
     },
     {
         "name": "Loopback100 configureren",

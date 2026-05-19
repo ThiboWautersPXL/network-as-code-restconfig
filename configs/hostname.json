@@ -1,5 +1,3 @@
 {
-  "Cisco-IOS-XE-native:native": {
-    "hostname": "R-THIBO-NAC"
-  }
+  "Cisco-IOS-XE-native:hostname": "R-THIBO-NAC"
 }
